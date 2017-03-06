@@ -2,9 +2,9 @@ import React, {Component} from 'react'
 import StyleGuideSection from './UI/StyleGuideSection'
 
 /* ================== Import components for preview ================================== */
-import Fonts from './SDK/Typography/Fonts'
-import FontSizes from './SDK/Typography/FontSizes'
-import FontWeights from './SDK/Typography/FontWeights'
+import Fonts from '../sdk/Typography/Fonts'
+import FontSizes from '../sdk/Typography/FontSizes'
+import FontWeights from '../sdk/Typography/FontWeights'
 
 const previewFonts = [
   <Fonts />

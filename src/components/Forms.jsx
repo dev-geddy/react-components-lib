@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
 import StyleGuideSection from './UI/StyleGuideSection'
-import InputText, {cssFile} from './SDK/FormElements/InputText'
-import InputCheckbox from './SDK/FormElements/InputCheckbox'
-import InputRadio from './SDK/FormElements/InputRadio'
+import InputText, {cssFile} from '../sdk/FormElements/InputText'
+import InputCheckbox from '../sdk/FormElements/InputCheckbox'
+import InputRadio from '../sdk/FormElements/InputRadio'
 
-import OptionsRow, {cssFile as cssFileCustom} from './SDK/FormElementsCustom/OptionsRow'
+import OptionsRow, {cssFile as cssFileCustom} from '../sdk/FormElementsCustom/OptionsRow'
 
 /* ================== Import components for preview ================================== */
 const previewFormInputs = [

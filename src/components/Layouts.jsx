@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import StyleGuideSection from './UI/StyleGuideSection'
 
 /* ================== Import components for preview ================================== */
-import LayoutVertical, {cssFile} from './SDK/Layouts/LayoutVertical'
+import LayoutVertical, {cssFile} from '../sdk/Layouts/LayoutVertical'
 
 const previewLayouts = [
   <div style={{height: '120', border: '1px solid #22b0df', padding: 10}}>
@@ -15,7 +15,7 @@ const describeLayouts = (
   </div>
 )
 /* ================== Section data separator ========================================= */
-import LayoutWithSidebar from './SDK/Layouts/LayoutWithSidebar'
+import LayoutWithSidebar from '../sdk/Layouts/LayoutWithSidebar'
 
 const previewSidebarLayouts = [
   <div style={{height: '120', border: '1px solid #22b0df', padding: 10}}>
