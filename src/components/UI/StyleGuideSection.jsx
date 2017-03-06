@@ -2,9 +2,6 @@ import React, {Component} from 'react'
 import AppStore from '../../stores/AppStore'
 import AppDispatcher from '../../dispatchers/AppDispatcher'
 
-import Error from './Error'
-import Loader from './Loader'
-
 import PreviewBox from './PreviewBox'
 
 class Buttons extends Component {

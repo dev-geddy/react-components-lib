@@ -16,7 +16,7 @@ class OptionsRow extends Component {
   }
 
   componentWillMount() {
-    this.state.selectedOption = this.props.preselectOption ? this.props.preselectOption.value : false
+    this.setState({selectedOption: this.props.preselectOption ? this.props.preselectOption.value : false})
   }
 
   handleSelection(event) {
@@ -54,7 +54,7 @@ class OptionsRow extends Component {
       let classNames = selectedOption === option.value ? 'selected' : 'not'
 
       if (intervalSelection === true && selectedOption !== option.value) {
-        classNames = classNames + ' selected'
+        classNames += ' selected'
       } else {
         intervalSelection = false
       }
