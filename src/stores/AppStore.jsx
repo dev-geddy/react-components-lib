@@ -2,8 +2,8 @@ import {EventEmitter} from 'events'
 import Request from '../services/Request'
 import AppDispatcher from '../dispatchers/AppDispatcher'
 
-// const BASE_URL = 'http://localhost:3601'
-const BASE_URL = 'http://www.include.lt'
+const BASE_URL = 'http://localhost:3601'
+// const BASE_URL = 'http://www.include.lt'
 
 export class AppStore extends EventEmitter {
 
