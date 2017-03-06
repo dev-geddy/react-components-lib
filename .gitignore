@@ -13,3 +13,4 @@ npm-debug.log
 .idea
 midata5194.csv
 api/uploads/
+api/static
