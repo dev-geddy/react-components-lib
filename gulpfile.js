@@ -35,7 +35,7 @@ gulp.task('clean', function () {
 });
 
 gulp.task('styles', function () {
-  return gulp.src(__dirname + '/src/components/SDK/**/*.scss')
+  return gulp.src(__dirname + '/src/components/sdk/**/*.scss')
              .pipe($.plumber())
              .pipe($.sass({errLogToConsole: true, compress: true, 'include css': true}))
              .pipe($.autoprefixer(autoprefixerBrowsers))

@@ -2,8 +2,8 @@ import React, {Component} from 'react'
 import StyleGuideSection from './UI/StyleGuideSection'
 
 /* ================== Import components for preview ================================== */
-import HorizontalNav, {cssFile as cssFileHorizontal} from './SDK/HorizontalNav/HorizontalNav'
-import VerticalNav, {cssFile as cssFileVertical} from './SDK/VerticalNav/VerticalNav'
+import HorizontalNav, {cssFile as cssFileHorizontal} from '../sdk/HorizontalNav/HorizontalNav'
+import VerticalNav, {cssFile as cssFileVertical} from '../sdk/VerticalNav/VerticalNav'
 const sampleItems = [
   {
     name: "Home",
@@ -14,7 +14,7 @@ const sampleItems = [
     linkTo: "/about"
   },
   {
-    name: "SDK",
+    name: "sdk",
     linkTo: "/about"
   },
   {

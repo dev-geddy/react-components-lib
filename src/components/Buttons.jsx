@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import StyleGuideSection from './UI/StyleGuideSection'
 
 /* ================== Import components for preview ================================== */
-import ActionButton, {cssFile} from './SDK/ActionButton/ActionButton'
+import ActionButton, {cssFile} from '../sdk/ActionButton/ActionButton'
 const previewComponentsButtons = [
   <ActionButton name="Default button"/>,
   <div>
