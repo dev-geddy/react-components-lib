@@ -15,7 +15,7 @@ Unfortunately API upload handling does not work on windows environment yet.
 
 ### Languages Used
 - ES6 (ECMA2015)
-- NodeJS (JS or ES5)
+- NodeJS (v6.10)
 - SCSS
 
 ### Highlights of Frameworks, Libraries and Tools
