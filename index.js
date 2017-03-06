@@ -11,6 +11,8 @@ import LayoutVertical from './src/sdk/Layouts/LayoutVertical'
 import LayoutWithSidebar from './src/sdk/Layouts/LayoutWithSidebar'
 import Fonts from './src/sdk/Typography/Fonts'
 
+export ActionButton
+
 export const sdk = {
   ActionButton,
   InputCheckbox,
@@ -21,7 +23,7 @@ export const sdk = {
   VerticalNav,
   LayoutVertical,
   LayoutWithSidebar,
-  Fonts,
+  Fonts
 }
 
 export default sdk
