@@ -6,7 +6,7 @@ export const scssFile = 'Typography.scss'
 export const componentName = 'Font weights'
 export const componentDescription = 'Available font weights to be used with this library.'
 
-class FontWeights extends Component {
+export class FontWeights extends Component {
 
   render() {
     return (

@@ -6,7 +6,7 @@ export const scssFile = 'Layout.scss'
 export const componentName = 'Layout with sidebar'
 export const componentDescription = 'Layout with header, footer and sidebar on the left.'
 
-class LayoutWithSidebar extends Component {
+export class LayoutWithSidebar extends Component {
 
   render() {
     return (

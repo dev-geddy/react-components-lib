@@ -6,7 +6,7 @@ export const scssFile = 'Typography.scss'
 export const componentName = 'Fonts'
 export const componentDescription = 'Fonts that are used in this style library.'
 
-class Fonts extends Component {
+export class Fonts extends Component {
 
   render() {
     return (

@@ -7,7 +7,7 @@ export const scssFile = 'HorizontalNav.scss'
 export const componentName = 'Horizontal navigation'
 export const componentDescription = 'Horizontal, styled navigation without responsiveness.'
 
-class HorizontalNav extends Component {
+export class HorizontalNav extends Component {
 
   renderMenuItems(menuItems,activeLocation) {
     if (!menuItems || menuItems.length === 0) {

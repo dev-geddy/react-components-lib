@@ -6,7 +6,7 @@ export const scssFile = 'FormElements.scss'
 export const componentName = 'Input checkbox'
 export const componentDescription = 'Input of type checkbox.'
 
-class InputCheckbox extends Component {
+export class InputCheckbox extends Component {
   onHandleChange(e) {
 
   }

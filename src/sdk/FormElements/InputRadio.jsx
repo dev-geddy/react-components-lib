@@ -6,7 +6,7 @@ export const scssFile = 'FormElements.scss'
 export const componentName = 'Input radio'
 export const componentDescription = 'Input of type radio.'
 
-class InputRadio extends Component {
+export class InputRadio extends Component {
 
   render() {
     /*const {

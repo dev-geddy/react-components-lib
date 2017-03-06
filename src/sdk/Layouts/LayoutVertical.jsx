@@ -6,7 +6,7 @@ export const scssFile = 'Layout.scss'
 export const componentName = 'Vertical layout'
 export const componentDescription = 'Vertically layed out site framework.'
 
-class LayoutVertical extends Component {
+export class LayoutVertical extends Component {
 
   render() {
     return (

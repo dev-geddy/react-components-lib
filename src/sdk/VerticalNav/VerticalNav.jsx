@@ -7,7 +7,7 @@ export const scssFile = 'VerticalNav.scss'
 export const componentName = 'Vertical navigation'
 export const componentDescription = 'Vertically styled navigation with active and hover highlighting.'
 
-class HorizontalNav extends Component {
+export class HorizontalNav extends Component {
 
   renderMenuItems(menuItems,activeLocation) {
     if (!menuItems || menuItems.length === 0) {

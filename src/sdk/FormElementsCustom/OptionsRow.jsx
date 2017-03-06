@@ -6,7 +6,7 @@ export const scssFile = 'OptionsRow.scss'
 export const componentName = 'Options row'
 export const componentDescription = 'Custom tnput of type options row.'
 
-class OptionsRow extends Component {
+export class OptionsRow extends Component {
 
   constructor(props) {
     super(props)

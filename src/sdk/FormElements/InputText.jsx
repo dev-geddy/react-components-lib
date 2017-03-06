@@ -6,7 +6,7 @@ export const scssFile = 'FormElements.scss'
 export const componentName = 'Input text'
 export const componentDescription = 'Input of type text.'
 
-class InputText extends Component {
+export class InputText extends Component {
 
   render() {
     /*const {

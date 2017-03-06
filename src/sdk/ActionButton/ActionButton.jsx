@@ -6,7 +6,7 @@ export const scssFile = 'ActionButton.scss'
 export const componentName = 'Action button'
 export const componentDescription = 'Button with different states, colors and loader support.'
 
-class ActionButton extends Component {
+export class ActionButton extends Component {
 
   render() {
 

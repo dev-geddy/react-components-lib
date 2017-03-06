@@ -6,7 +6,7 @@ export const scssFile = 'Typography.scss'
 export const componentName = 'Font sizes'
 export const componentDescription = 'Font size variations across the visual style.'
 
-class FontSizes extends Component {
+export class FontSizes extends Component {
 
   render() {
     return (
