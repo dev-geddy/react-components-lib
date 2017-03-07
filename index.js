@@ -11,7 +11,7 @@ import { LayoutVertical } from './src/sdk/Layouts/LayoutVertical'
 import { LayoutWithSidebar } from './src/sdk/Layouts/LayoutWithSidebar'
 import { Fonts } from './src/sdk/Typography/Fonts'
 
-export const sdk = {
+const sdk = {
   ActionButton,
   InputCheckbox,
   InputRadio,
@@ -24,6 +24,6 @@ export const sdk = {
   Fonts,
 }
 
-export default sdk
+// export default sdk
 
 module.exports = sdk
