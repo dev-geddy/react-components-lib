@@ -1,17 +1,17 @@
 /* ATOMIC components */
 
-let ActionButton = require('./src/sdk/ActionButton/ActionButton')
-let InputCheckbox = require('./src/sdk/FormElements/InputCheckbox')
-let InputRadio = require('./src/sdk/FormElements/InputRadio')
-let InputText = require('./src/sdk/FormElements/InputText')
-let OptionsRow = require('./src/sdk/FormElementsCustom/OptionsRow')
-let HorizontalNav = require('./src/sdk/HorizontalNav/HorizontalNav')
-let VerticalNav = require('./src/sdk/VerticalNav/VerticalNav')
-let LayoutVertical = require('./src/sdk/Layouts/LayoutVertical')
-let LayoutWithSidebar = require('./src/sdk/Layouts/LayoutWithSidebar')
-let Fonts = require('./src/sdk/Typography/Fonts')
+import { ActionButton } from './src/sdk/ActionButton/ActionButton'
+import { InputCheckbox } from './src/sdk/FormElements/InputCheckbox'
+import { InputRadio } from './src/sdk/FormElements/InputRadio'
+import { InputText } from './src/sdk/FormElements/InputText'
+import { OptionsRow } from './src/sdk/FormElementsCustom/OptionsRow'
+import { HorizontalNav } from './src/sdk/HorizontalNav/HorizontalNav'
+import { VerticalNav } from './src/sdk/VerticalNav/VerticalNav'
+import { LayoutVertical } from './src/sdk/Layouts/LayoutVertical'
+import { LayoutWithSidebar } from './src/sdk/Layouts/LayoutWithSidebar'
+import { Fonts } from './src/sdk/Typography/Fonts'
 
-module.export = {
+export const sdk = {
   ActionButton,
   InputCheckbox,
   InputRadio,
@@ -21,5 +21,9 @@ module.export = {
   VerticalNav,
   LayoutVertical,
   LayoutWithSidebar,
-  Fonts
+  Fonts,
 }
+
+export default sdk
+
+module.exports = sdk
