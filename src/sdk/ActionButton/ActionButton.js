@@ -8,6 +8,17 @@ export const componentDescription = 'Button with different states, colors and lo
 
 export class ActionButton extends Component {
 
+  static propTypes = {
+    name: React.propTypes.string,
+    loadingName: React.propTypes.string,
+    isDisabled: React.propTypes.bool,
+    isLoading: React.propTypes.bool,
+    withColor: React.propTypes.string,
+    withIcon: React.propTypes.string,
+    addClass: React.propTypes.string,
+    onClick: React.propTypes.func
+  }
+
   render() {
 
     const {
