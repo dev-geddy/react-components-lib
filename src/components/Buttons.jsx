@@ -6,15 +6,15 @@ import ActionButton, {cssFile} from '../sdk/ActionButton/ActionButton'
 const previewComponentsButtons = [
   <ActionButton name="Default button"/>,
   <div>
-    <ActionButton name="Continue" loadingName="Loading..." isLoading={1} />
-    <ActionButton name="Continue" loadingName="Loading..." isLoading={1} withIcon="toys" />
+    <ActionButton name="Continue" loadingName="Loading..." isLoading={true} />
+    <ActionButton name="Continue" loadingName="Loading..." isLoading={true} withIcon="toys" />
   </div>,
   <div>
-    <ActionButton name="Continue" loadingName="Processing..." isLoading={1} withIcon="settings" />
-    <ActionButton name="Continue" loadingName="Wait..." isLoading={1} withIcon="cached" />
-    <ActionButton name="Continue" loadingName="Wait..." isLoading={1} withIcon="hourglass_empty" />
+    <ActionButton name="Continue" loadingName="Processing..." isLoading={true} withIcon="settings" />
+    <ActionButton name="Continue" loadingName="Wait..." isLoading={true} withIcon="cached" />
+    <ActionButton name="Continue" loadingName="Wait..." isLoading={true} withIcon="hourglass_empty" />
   </div>,
-  <ActionButton name="Disabled" isDisabled={1} />
+  <ActionButton name="Disabled" isDisabled={true} />
 ]
 const describeActionButtons = (
   <div>

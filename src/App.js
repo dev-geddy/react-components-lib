@@ -13,33 +13,36 @@ class App extends Component {
       mobileNavActive: false
     }
   }
+
   toggleNavigation(e) {
     e.preventDefault()
     this.setState({
       mobileNavActive: !this.state.mobileNavActive
     })
   }
+
   closeNavigation(e) {
     this.setState({
       mobileNavActive: false
     })
   }
+
   render() {
     return (
       <div className="app-wrapper">
-        <NavigationToggle onClick={this.toggleNavigation.bind(this)} isActive={this.state.mobileNavActive} />
+        <NavigationToggle onClick={this.toggleNavigation.bind(this)} isActive={this.state.mobileNavActive}/>
         <Header />
         <div id="bodyWrapper">
           <div id="appBody">
             <div id="appNavigation" className={this.state.mobileNavActive ? 'app-navigation-active' : ''}>
-              <Navigation activeLocation={this.props.location.pathname} onNavigation={this.closeNavigation.bind(this)} />
+              <Navigation activeLocation={this.props.location.pathname} onNavigation={this.closeNavigation.bind(this)}/>
             </div>
             <div id="appContent">{this.props.children}</div>
           </div>
         </div>
         <Footer />
       </div>
-    );
+    )
   }
 }
 
